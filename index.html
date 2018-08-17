@@ -1,74 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>PassMyExam</title>
-  <link rel="icon" href="resources\images\..." type="image/icon">
-  <!-- Reset -->
-  <link rel="stylesheet" href="./src/css/reset.css" type="text/css">
-  <!-- Custom stylesheet -->
-  <link rel="stylesheet" href="./src/css/style.css" type="text/css">
-</head>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>PassMyExam</title>
+      <link rel="icon" href="resources\images\..." type="image/icon">
+      <!-- Reset -->
+      <link rel="stylesheet" href="./src/css/reset.css" type="text/css">
+      <!-- Custom stylesheet -->
+      <link rel="stylesheet" href="./src/css/style.css" type="text/css">
+    </head>
 
-<body>
+    <body>
 
-<!-- Header Section -->
-<div id="navigation">
-    <div class="button">
-        <img src="src/img/burgermenu.png">
-    </div>
-    <div class="nav-container container">
-        <header>
-            <div class="logo">
-                <a href="#"><img src="src/img/logo.png" alt="logo"></a>
+        <!-- Header Section -->
+        <div id="navigation">
+            <div class="button">
+                <img src="src/img/burgermenu.png">
             </div>
+            <div class="nav-container container">
+                <header>
+                    <div class="logo">
+                        <a href="#"><img src="src/img/logo.png" alt="logo"></a>
+                    </div>
 
-        </header>
-        <nav>
-            <ul class="nav-ul hide-ul">
-                <li class="active"><a href="#">Practice</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">About Us</a></li>
-            </ul>
-        </nav>
-    </div>
-</div>
-
-<!-- Navbar wedge -->
-<div class="wedge"></div>
-
-<!-- Main Content -->
-<div id="practice">
-    <div class="container">
-        <h1>Welcome!</h1>
-        <h3>Please choose one of the following practice quizzes</h3>
-        <div class="quiz-list">
-            <ul>
-                <li><button>Quiz 1</button></li>
-                <li><button>Quiz 2</button></li>
-                <li><button>Quiz 3</button></li>
-                <li><button>Quiz 4</button></li>
-                <li><button>Quiz 5</button></li>
-                <li><button>Quiz 6</button></li>
-                <li><button>Quiz 7</button></li>
-                <li><button>Quiz 8</button></li>
-                <li><button>Quiz 9</button></li>
-                <li><button>Quiz 10</button></li>
-                <li><button>Quiz 11</button></li>
-                <li><button>Quiz 12</button></li>
-                <li><button>Quiz 13</button></li>
-                <li><button>Quiz 14</button></li>
-                <li><button>Quiz 15</button></li>
-            </ul>
+                </header>
+                <nav>
+                    <ul class="nav-ul hide-ul">
+                        <li class="active"><a href="#">Practice</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </div>
-</div>
 
-<!-- Footer Section -->
+        <!-- Navbar wedge -->
+        <div class="wedge"></div>
 
-<footer></footer>
-<script src="./src/js/main.js"></script>
-<script src="./src/js/navigation.js"></script>
-</body>
+        <!-- Main Content -->
+
+        <!-- Quiz button section -->
+        <div id="welcome">
+            <div class="container">
+                <h1>Welcome!</h1>
+                <h3>
+                    Test your knowledge by completing the quizzes.
+                    If you consistently score more then 90% on all
+                    quizzes you will have a very good chance for
+                    passing your Life In The UK Exam
+                </h3>
+                <hr>
+                <h3>
+                    Select a quiz and test your knowledge
+                </h3>
+                <div class="quiz-list">
+                    <ul>
+                        <li><button class="btn" id="btn-1">Quiz 1</button></li>
+                        <li><button class="btn" id="btn-2">Quiz 2</button></li>
+                        <li><button class="btn" id="btn-3">Quiz 3</button></li>
+                        <li><button class="btn" id="btn-4">Quiz 4</button></li>
+                        <li><button class="btn" id="btn-5">Quiz 5</button></li>
+                        <li><button class="btn" id="btn-6">Quiz 6</button></li>
+                        <li><button class="btn" id="btn-7">Quiz 7</button></li>
+                        <li><button class="btn" id="btn-8">Quiz 8</button></li>
+                        <li><button class="btn" id="btn-9">Quiz 9</button></li>
+                        <li><button class="btn" id="btn-10">Quiz 10</button></li>
+                        <li><button class="btn" id="btn-11">Quiz 11</button></li>
+                        <li><button class="btn" id="btn-12">Quiz 12</button></li>
+                        <li><button class="btn" id="btn-13">Quiz 13</button></li>
+                        <li><button class="btn" id="btn-14">Quiz 14</button></li>
+                        <li><button class="btn" id="btn-15">Quiz 15</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz section -->
+
+        <div id="quiz">
+            <span class="close">&times;</span>
+            <div class="container quiz-container">
+                <div class="answer" id="question">
+                    Question ...?
+                </div>
+                <div id="answers">
+                    <div class="answer" id="answer1">
+                        answer...1
+                    </div>
+                    <div class="answer" id="answer2">
+                        answer...2
+                    </div>
+                    <div class="answer" id="answer3">
+                        answer...3
+                    </div>
+                    <div class="answer" id="answer4">
+                        answer...4
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+
+        <footer></footer>
+        <script src="./src/js/main.js"></script>
+        <script src="./src/js/navigation.js"></script>
+        <script src="./src/js/quiz-modal.js"></script>
+    </body>
 </html>

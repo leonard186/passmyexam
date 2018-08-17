@@ -212,25 +212,107 @@ header {
 }
 
 /**********************************************************************
-Practice quiz
+Quiz Button section
 **********************************************************************/
 
-#practice {
+#welcome {
     width: 100%;
-    height: 5000px;
-    background: #7EB3FF url("../img/texture.png") repeat;
+    background: #7EB3FF;
 }
 
-#practice h1 {
+#welcome h1 {
     font-size: 2rem;
     font-weight: bold;
     padding: 2rem;
     text-align: center;
 }
 
-#practice h3 {
+#welcome h3 {
     font-size: 1.5rem;
     padding: 2rem;
     text-align: center;
+}
+
+#welcome button {
+    width: 8rem;
+    height: 3rem;
+    padding:  0.5rem 1rem;
+    border-radius: 0.35rem;
+    background-color: #FFCB71;
+    margin: 1rem;
+    border-width: 0;
+    transition: background-color 0.33s;
+}
+
+#welcome button:hover {
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+
+#welcome ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#welcome hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.quiz-list {
+    padding-bottom: 3rem;
+}
+
+/**********************************************************************
+Quiz section
+**********************************************************************/
+
+#quiz {
+    font-family: 'Junge', serif;
+    background-color: #F2F2F2;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    p adding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    backg round-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.quiz-container {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.answer {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.35rem;
+    margin: 0.2rem 0.2rem;
 }
 
