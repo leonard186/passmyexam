@@ -74,7 +74,7 @@ Navigation
 #navigation {
     border-bottom: solid 0.1rem #F2F2F2;
     position: fixed;
-    z-index: 99999;
+    z-index: 1;
     background-color: #fff;
     margin: 0 auto;
     width: 100%;
@@ -274,7 +274,7 @@ Quiz section
     background-color: #F2F2F2;
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
     p adding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -316,3 +316,15 @@ Quiz section
     margin: 0.2rem 0.2rem;
 }
 
+#answers {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+background-color:red;
+}
+
+#finished {
+    display: none;
+}
