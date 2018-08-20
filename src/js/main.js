@@ -54,6 +54,7 @@ var quiz1 = [
         [1, 1, 0, 0],
         'just because'
     ),
+    /*
     new Quiz(
         'question 6',
         'correct answer1',
@@ -225,17 +226,8 @@ var quiz1 = [
         [1, 1, 0, 0],
         'just because'
     ),
-    new Quiz(
-        'N/A',
-        'N/A',
-        'N/A',
-        'N/A',
-        'N/A',
-        [0, 0, 0, 0],
-        'N/A'
-    ),
-
-]
+    */
+];
 
 //quiz controller
 var model = (function(){
@@ -256,6 +248,16 @@ var model = (function(){
         refresh: function() {
             location.reload();
         },
+
+        //check if element has class function
+        hasClass: function(element, className) {
+        return element.className && new RegExp("(^|\\s)" + className + "(\\s|$)").test(element.className);
+        },
+        /*
+       example:
+       var elem = document.getElementById('elementID');
+       hasClass(elem, 'active'); OUTPUT: true or false
+       */
 
         //shortcut function for getting elements by id
         getID: function(id) {
@@ -280,10 +282,12 @@ var model = (function(){
 })();
 
 //user interface controller
-var view = (function(){
+var view = (function (name){
 
     //access dom elements
     var elem = {
+        answers: model.getID('answers'),
+        answersInput: this.answers.getElementsByTagName('input'),
         question: model.getID('question'),
         answer1: model.getID('answer1'),
         answer2: model.getID('answer2'),
@@ -291,64 +295,144 @@ var view = (function(){
         answer4: model.getID('answer4'),
         info: model.getID('info'),
         submit: model.getID('submit-btn'),
+        next: model.getID('submit-btn-next'),
         finished: model.getID('finished'),
         quizLayout: model.getID('quiz-layout'),
-        finishedBtn: model.getID('finished-btn')
+        finishedBtn: model.getID('finished-btn'),
+        finalScore: model.getID('final-score')
     };
 
 
+    var input = elem.answersInput;
+
+    //counters to help validate user answers
+    var selected = 0;
+    var correctCount = 0;
+
+    //function for resetting user validation counters
+    var resetCounter = function() {
+        selected = 0;
+        correctCount = 0;
+    };
+
+    //check if user selection is correct then increment correct answer count
+    var checkSelected = function() {
+        for(var i=0; i < input.length; i++){
+            if(input[i].value === '1' && input[i].checked) {
+                selected++;
+            }
+        }
+    };
+
+    //check how many correct answers are supposed to be and increment the count
+    var checkCorrectNo = function() {
+        for(var i=0; i < model.quizArray[model.counter].correct.length; i++)  {
+            if(model.quizArray[model.counter].correct[i] === 1) {
+                correctCount++;
+            }
+        }
+    };
+
+    //make sure only the correct amount of answers are displayed
+    var controlQuiz = function() {
+        if(model.counter >= model.quizArray.length - 1) {
+            elem.quizLayout.style.display = "none";
+            elem.finished.style.display = "block";
+        }
+    };
+
+    //when this function is called it will display final results tot he DOM
+    var renderScore = function() {
+        return elem.finalScore.innerHTML = `${model.score} out of ${model.quizArray.length}`;
+    };
+
+    //toggle between submit and continue(next) button
+    var toggleButtons = function() {
+        if (model.hasClass(elem.submit, 'show')) {
+            elem.submit.classList.toggle('show');
+            elem.submit.classList.toggle('hide');
+            elem.next.classList.toggle('show');
+            elem.next.classList.toggle('hide');
+        } else if (model.hasClass(elem.next, 'show')) {
+            elem.submit.classList.toggle('show');
+            elem.submit.classList.toggle('hide');
+            elem.next.classList.toggle('show');
+            elem.next.classList.toggle('hide');
+
+        }
+    };
 
     return {
-        renderQuiz: function(chooseQuiz) {
+
+        //render the quiz to the dom with appropriate logic
+        generateQuiz: function(chooseQuiz) {
             model.getArray(chooseQuiz);
-            //display quiz in the dom function
+
+            //render the questions and answers into the appropriate elements
             function render() {
                 elem.question.innerHTML = model.quizArray[model.counter].question;
-                document.getElementById('a1').innerHTML = model.quizArray[model.counter].answer1;
-                document.getElementById('a2').innerHTML = model.quizArray[model.counter].answer2;
-                document.getElementById('a3').innerHTML = model.quizArray[model.counter].answer3;
-                document.getElementById('a4').innerHTML = model.quizArray[model.counter].answer4;
-                elem.info.innerHTML = model.quizArray[model.counter].info;
+                elem.answer1.innerHTML =
+                    `<label>
+                        <input type="checkbox" value="${model.quizArray[model.counter].correct[0]}">
+                        ${model.quizArray[model.counter].answer1}
+                    </label>`;
+                elem.answer2.innerHTML =
+                    `<label>
+                        <input type="checkbox" value="${model.quizArray[model.counter].correct[1]}">
+                        ${model.quizArray[model.counter].answer2}
+                    </label>`;
+                elem.answer3.innerHTML =
+                    `<label>
+                         <input type="checkbox" value="${model.quizArray[model.counter].correct[2]}">
+                         ${model.quizArray[model.counter].answer3}
+                    </label>`;
+                elem.answer4.innerHTML =
+                    `<label>
+                         <input type="checkbox" value="${model.quizArray[model.counter].correct[3]}">
+                         ${model.quizArray[model.counter].answer4}
+                    </label>`;
             };
-
-            //trigger render quiz function
+            //render first question
             render();
-            //handle submit button
-            elem.submit.addEventListener("click", function(){
-                function submit() {
-                    var checked = [].slice.call(
-                        multiLanguageSelectorContainer
-                            .querySelectorAll('[type=checkbox]:checked') )
-                        .map(function (v){
-                            return v.value;
-                        });
-                    model.counter++;
-                    render();
-                if(model.counter >= model.quizArray.length -1) {
-                    elem.quizLayout.style.display = "none";
-                    elem.finished.style.display = "block";
-                    return false;
-                }
 
-                console.log(model.counter);
+            //move to next question while validating the answer
+            elem.submit.addEventListener("click", function(){
+                //render only available amount of questions/quiz
+                controlQuiz();
+                //verify the accuracy of the answers and set the score accordingly
+                checkSelected();
+                checkCorrectNo();
+
+                if(selected === correctCount && selected !== 0) {
+                    resetCounter();
+                    model.score++;
+                    model.counter++;
+                    renderScore();
+                    render();
+                } else {
+                    //if user gives wrong choices render an explanation to the DOM
+                    elem.info.innerHTML = `<h2 class="red">Remember this:</h2></br>${model.quizArray[model.counter].info}`;
+                    toggleButtons();
+                    resetCounter();
+                }
+            });
+
+            //this button will go to the next question without incrementing the score
+            elem.next.addEventListener("click", function() {
+                elem.info.innerHTML = '';
+                controlQuiz();
+                resetCounter();
+                model.counter++;
+                toggleButtons();
+                render();
             });
         },
 
+        //refresh page added for finish button
         finished: function() {
             elem.finishedBtn.addEventListener('click', model.refresh);
         },
-
-        setValue: function(){
-            model.getArray(quiz1);
-            model.getValidationArray(model.quizArray);
-            var x = model.quizValidationArray[0][0];
-            elem.answer1.value = x;
-
-        }
-
-
     }
-
 })();
 
 //global controller
@@ -356,10 +440,8 @@ var controller = (function(model, view){
 
     return {
         init: function(){
-            view.renderQuiz(quiz1);
+            view.generateQuiz(quiz1);
             view.finished();
-
-
         }
     }
 

@@ -67,6 +67,14 @@ a {
     background-color: #F2F2F2 !important;
 }
 
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
 /**********************************************************************
 Navigation
 **********************************************************************/
@@ -275,7 +283,7 @@ Quiz section
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 2; /* Sit on top */
-    p adding-top: 100px; /* Location of the box */
+    padding-top: 0px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -322,7 +330,11 @@ Quiz section
 }
 
 .submit-btn {
-background-color:red;
+background-color:yellow;
+}
+
+.red {
+    color: red;
 }
 
 #finished {
