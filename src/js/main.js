@@ -238,6 +238,9 @@ var model = (function(){
         //store score points
         score: 0,
 
+        //set timer value
+        timer: 5,
+
         //storing the quiz array
         quizArray: [],
 
@@ -270,13 +273,13 @@ var model = (function(){
                 this.quizArray.push(array[i]);
             }
         },
-         //get the validation pattern array (ex. [0,0,1,1]
-         getValidationArray: function(array){
-             for(var i=0; i<array.length;i++){
-                 this.quizValidationArray.push(array[i].correct);
-             }
-         }
 
+        scorePercentage: function() {
+            var totalQuestions = this.quizArray.length;
+            var totalScore = this.score;
+            var percentageScore = Math.round((totalScore / totalQuestions) * 100);
+            return percentageScore;
+        },
     }
 
 })();
@@ -288,6 +291,7 @@ var view = (function (name){
     var elem = {
         answers: model.getID('answers'),
         answersInput: this.answers.getElementsByTagName('input'),
+        answersLabel: this.answers.getElementsByTagName('label'),
         question: model.getID('question'),
         answer1: model.getID('answer1'),
         answer2: model.getID('answer2'),
@@ -299,7 +303,9 @@ var view = (function (name){
         finished: model.getID('finished'),
         quizLayout: model.getID('quiz-layout'),
         finishedBtn: model.getID('finished-btn'),
-        finalScore: model.getID('final-score')
+        finalScore: model.getID('final-score'),
+        quizCount: model.getID('quiz-count'),
+        countDown: model.getID('count-down')
     };
 
 
@@ -307,20 +313,33 @@ var view = (function (name){
 
     //counters to help validate user answers
     var selected = 0;
+    var wrong = 0;
     var correctCount = 0;
 
     //function for resetting user validation counters
     var resetCounter = function() {
         selected = 0;
+        wrong = 0;
         correctCount = 0;
     };
 
     //check if user selection is correct then increment correct answer count
     var checkSelected = function() {
         for(var i=0; i < input.length; i++){
+            //assigning input elements parent to a variable
+            var parentNode1 = input[i].parentNode;
+            var parentNode2 = parentNode1.parentNode;
+            //style the choices according to validity
+            input[i].value === '1' ? parentNode2.classList.add('green') : parentNode2.classList.add('red');
+            //quiz logic
+            if(input[i].value === '0' && input[i].checked){
+                wrong++;
+            }
             if(input[i].value === '1' && input[i].checked) {
                 selected++;
             }
+            //disable check buttons once the validation process has gone through
+            input[i].disabled = true;
         }
     };
 
@@ -343,7 +362,21 @@ var view = (function (name){
 
     //when this function is called it will display final results tot he DOM
     var renderScore = function() {
-        return elem.finalScore.innerHTML = `${model.score} out of ${model.quizArray.length}`;
+        var percentageScore = model.scorePercentage();
+        if(percentageScore >= 75) {
+            return elem.finalScore.innerHTML =
+                `<h3 class="green bold">Passed</h3>
+                <p>Your scored <span class="bold">${model.score}</span> out of 
+                <span class="bold">${model.quizArray.length}</span> 
+                (<span class="green bold">${model.scorePercentage()}%</span>)</p>`;
+        } else {
+            return elem.finalScore.innerHTML =
+                `<h3 class="red bold">Failed!</h3> 
+                <p>The pass rate is <span class="bold green">75%</span> or higher</p>
+                <p>You scored <span class="bold">${model.score}</span>  
+                out of <span class="bold">${model.quizArray.length}</span> 
+                (<span class="red bold">${model.scorePercentage()}%</span>)</p>`;
+        }
     };
 
     //toggle between submit and continue(next) button
@@ -362,59 +395,94 @@ var view = (function (name){
         }
     };
 
-    return {
+    var countDownTimer = function() {
+        var renderElem = elem.countDown;
+        renderElem.innerHTML = model.timer;
+        function timing() {
+            model.timer--;
+            renderElem.innerHTML = model.timer;
+        }
+        setInterval(timing(), 1000)
+    };
 
+
+
+    return {
         //render the quiz to the dom with appropriate logic
         generateQuiz: function(chooseQuiz) {
             model.getArray(chooseQuiz);
-
+            countDownTimer();
             //render the questions and answers into the appropriate elements
             function render() {
-                elem.question.innerHTML = model.quizArray[model.counter].question;
+                elem.quizCount.innerHTML = `Question ${model.counter + 1} of ${model.quizArray.length}`;
+
+                elem.question.innerHTML = `${model.quizArray[model.counter].question}`;
                 elem.answer1.innerHTML =
-                    `<label>
-                        <input type="checkbox" value="${model.quizArray[model.counter].correct[0]}">
-                        ${model.quizArray[model.counter].answer1}
-                    </label>`;
+                    `<div>
+                        <label>
+                            <input type="checkbox" value="${model.quizArray[model.counter].correct[0]}">
+                            ${model.quizArray[model.counter].answer1}
+                        </label>
+                    </div>`;
                 elem.answer2.innerHTML =
-                    `<label>
-                        <input type="checkbox" value="${model.quizArray[model.counter].correct[1]}">
-                        ${model.quizArray[model.counter].answer2}
-                    </label>`;
+                    `<div>
+                        <label>
+                            <input type="checkbox" value="${model.quizArray[model.counter].correct[1]}">
+                            ${model.quizArray[model.counter].answer2} 
+                        </label>
+                    </di v>`;
                 elem.answer3.innerHTML =
-                    `<label>
-                         <input type="checkbox" value="${model.quizArray[model.counter].correct[2]}">
-                         ${model.quizArray[model.counter].answer3}
-                    </label>`;
+                    `<div>
+                        <label>
+                            <input type="checkbox" value="${model.quizArray[model.counter].correct[2]}">
+                            ${model.quizArray[model.counter].answer3}
+                        </label>
+                    </div>`;
                 elem.answer4.innerHTML =
-                    `<label>
-                         <input type="checkbox" value="${model.quizArray[model.counter].correct[3]}">
-                         ${model.quizArray[model.counter].answer4}
-                    </label>`;
+                    ` <div>
+                        <label>
+                            <input type="checkbox" value="${model.quizArray[model.counter].correct[3]}">
+                            ${model.quizArray[model.counter].answer4}
+                        </label>
+                    </div>`;
             };
             //render first question
             render();
 
             //move to next question while validating the answer
             elem.submit.addEventListener("click", function(){
-                //render only available amount of questions/quiz
-                controlQuiz();
-                //verify the accuracy of the answers and set the score accordingly
+                console.log(`good counter is: ${selected}`);
+                console.log(`wrong counter is: ${wrong}`);
+                console.log(`correct counter is: ${correctCount}`);
+
+                //initiate validation process
                 checkSelected();
                 checkCorrectNo();
 
-                if(selected === correctCount && selected !== 0) {
+                if(selected === correctCount && selected !== 0 && wrong === 0) {
                     resetCounter();
                     model.score++;
-                    model.counter++;
+
+                    //render question related information
+                    elem.info.innerHTML =
+                        `<h2 class="green bold">Correct</h2>
+                         <p>${model.quizArray[model.counter].info}</p>`;
+
+                    toggleButtons();
                     renderScore();
-                    render();
                 } else {
-                    //if user gives wrong choices render an explanation to the DOM
-                    elem.info.innerHTML = `<h2 class="red">Remember this:</h2></br>${model.quizArray[model.counter].info}`;
+                    //render question related information
+                    elem.info.innerHTML =
+                        `<h2 class="red bold">Incorrect</h2>
+                         <p>${model.quizArray[model.counter].info}</p>`;
+
                     toggleButtons();
                     resetCounter();
                 }
+                //render only available amount of questions/quiz
+                console.log(`counter is: ${model.counter}`);
+                console.log(`score is: ${model.score}`);
+
             });
 
             //this button will go to the next question without incrementing the score

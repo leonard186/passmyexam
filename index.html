@@ -84,17 +84,21 @@
 
                 <!-- Finished quiz layout -->
                 <div id="finished">
-                    <h1>Congratulations for finishing this quiz</h1>
-                    <h3>You have scored <span id="final-score"></span></h3>
-                    <p></p>
+                    <h3 id="final-score"></h3>
                     <button class="answer" id="finished-btn">Finish this quiz</button>
                 </div>
 
                 <!-- Quiz layout -->
                 <div id="quiz-layout">
+                    <div class="quiz-info">
+                        <div id="quiz-count"></div>
+                        <div id="count-down"></div>
+                    </div>
+
                     <div class="answer" id="question">
                         Question placeholder ...?
                     </div>
+
                     <div id="answers">
                         <div class="answer" id="answer1">
                             <label>
@@ -123,12 +127,12 @@
                                 <span id="a4">placeholder...4</span>
                             </label>
                         </div>
-                        <div class="answer" id="info">
-
-                        </div>
                     </div>
-                    <button class="submit-btn answer show" id="submit-btn"  type="submit">Submit answer</button>
-                    <button class="submit-btn answer red hide" id="submit-btn-next" type="submit">Continue</button>
+                    <div class="answer" id="info">
+
+                    </div>
+                    <button class="submit-btn answer show" id="submit-btn"  type="submit">Check answer</button>
+                    <button class="submit-btn answer hide" id="submit-btn-next" type="submit">Continue</button>
                 </div>
             </div>
         </div>
