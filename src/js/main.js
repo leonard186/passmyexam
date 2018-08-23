@@ -402,7 +402,7 @@ var view = (function (name){
             model.timer--;
             renderElem.innerHTML = model.timer;
         }
-        setInterval(timing(), 1000)
+        setInterval(timing, 1000)
     };
 
 
