@@ -19,214 +19,213 @@ var quiz1 = [
         'By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.'
     ),
     new Quiz(
-        'question 2',
-        'wrong answer3',
-        'wrong answer4',
-        'wrong answer5',
-        'correct answer2',
+        'Where is the official residence of the Prime Minister?',
+        'London Tower',
+        'Windsor Castle',
+        'Buckingham Palace',
+        '10 Downing Street',
         [0, 0, 0, 1],
-        'just because'
+        '10 Downing Street is the official office and home residence of the U.K. Prime Minister'
     ),
     new Quiz(
-        'question 3',
-        'wrong answer1',
-        'wrong answer2',
-        'correct answer1',
-        'wrong answer',
+        'Which industries were badly affected during the 1930\'s Great Depression?',
+        'Vehicle Manufacturing',
+        'Electrical Engineering',
+        'Shipbuilding',
+        'Agriculture',
         [0, 0, 1, 0],
-        'just because'
+        'One of the most affected industries during the 1930\'s Great Depression was shipbuilding'
     ),
     new Quiz(
-        'question 4',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Cardiff is the capital city of:',
+        'England',
+        'Wales',
+        'Ireland',
+        'Scotland',
+        [0, 1, 0, 0],
+        'In 1905, Cardiff was made a city and proclaimed the Capital of Wales in 1955'
     ),
     new Quiz(
-        'question 5',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'The Crown Jewels are kept at',
+        'Her Majesty’s Exchequer',
+        'Buckingham Palace',
+        'Tower of London',
+        'Big Ben',
+        [0, 0, 1, 0],
+        'The Crown Jewels are kept at the Tower of London'
     ),
-    /*
+
     new Quiz(
-        'question 6',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
-    ),
-    new Quiz(
-        'question 7',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'The last successful foreign invasion of Britain that took place in 1066 was:',
+        'Spanish Armada',
+        'Caesar\'s invasion',
+        'The Norman Conquest',
+        'The Anglo-Saxon invasion',
+        [0, 0, 1, 0],
+        'The Norman conquest of England under William the Conqueror at the Battle of Hastings'
     ),
     new Quiz(
-        'question 8',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which of the following is a public holiday in Northern Ireland',
+        'St George\'s day',
+        'St Patrick\'s day',
+        'St David\'s day',
+        'St Andrew\'s day',
+        [0, 1, 0, 0],
+        'Only Scotland and Northern Ireland have their patron saint’s day as an official holiday (although in Scotland not all businesses and offices will close)'
     ),
     new Quiz(
-        'question 9',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'What is a bank holiday?',
+        'A public holiday when banks and many other businesses are closed for the day',
+        'A holiday when only banks are closed',
+        'A holiday for public sector workers',
+        'A holiday which everyone living in the U.K. must have',
+        [1, 0, 0, 0],
+        'In the United Kingdom and Ireland a bank holiday is a public holiday, when banks and many other businesses are closed for the day'
     ),
     new Quiz(
-        'question 10',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'How is a jury selected?',
+        'From the electoral register in alphabetical order',
+        'Randomly from the telephone directory',
+        'From the postcode lottery',
+        'Randomly from the electoral register',
+        [0, 0, 0, 1],
+        'The jurors’ names are selected from the electoral register. This is an automatic process, randomly done by a computer at a central office'
     ),
     new Quiz(
-        'question 11',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'William Shakespeare was the author of which play?',
+        'The Clandestine Marriage',
+        'A Midsummer Night’s dream',
+        'The Daughter-in-Law',
+        'The Wonder of Women',
+        [0, 1, 0, 0],
+        'A Midsummer Night\'s Dream is a comedy written by William Shakespeare in 1595/96'
     ),
     new Quiz(
-        'question 12',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Northern Ireland has its own banknotes, where are they valid?',
+        'Only in Northern Ireland',
+        'Only in Northern Ireland and England',
+        'Only in Northern Ireland and Scotland',
+        'Everywhere in the UK',
+        [0, 0, 0, 1],
+        'Northern Ireland has its own banknotes, which are valid everywhere in the UK'
     ),
     new Quiz(
-        'question 13',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who is the author of Sherlock Holmes?',
+        'Sir Arthur Conan Doyle',
+        'Charles Dickens',
+        'J. R. R. Tolkien',
+        'George Orwell',
+        [1, 0, 0, 0],
+        'Sherlock Holmes is a fictional private detective created by British author Sir Arthur Conan Doyle'
     ),
     new Quiz(
-        'question 14',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'In which country is Snowdonia located?',
+        'Scotland',
+        'England',
+        'Wales',
+        'Northern Ireland',
+        [0, 0, 1, 0],
+        'Snowdonia is a region in northwest Wales concentrated around the mountains and glacial landforms of massive Snowdonia National Park'
     ),
     new Quiz(
-        'question 15',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which two houses form the UK Parliament?',
+        'House of Lords',
+        'House of the Royal Society',
+        'House of Commons',
+        'House of Cards',
+        [1, 0, 1, 0],
+        'The UK Parliament is composed of two houses; the House of Commons and the House of Lords.'
     ),
     new Quiz(
-        'question 16',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who was voted the Greatest Briton in 2002?',
+        'Isambard Kingdom Brunel',
+        'Winston Churchill',
+        'Diana, Princess of Wales',
+        'Charles Darwin',
+        [0, 1, 0, 0],
+        'A poll conducted by BBC in 2002 resulted in Winston Churchill being voted as the Greatest Briton'
     ),
     new Quiz(
-        'question 17',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'The National Citizen Service programme is: ',
+        'Compulsory for 16 and 17-year-olds to join',
+        'Optional for 16 and 17-year-olds to join',
+        'An opportunity to enjoy outdoor activities, develop skills and take part in a community project',
+        'Available for any age group',
+        [0, 1, 1, 0],
+        'The National Citizen Service programme, which gives 16- and 17-year-olds the opportunity to enjoy outdoor activities, develop their skills and take part in a community project. Therefore, it is optional.'
     ),
     new Quiz(
-        'question 18',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'If you think someone is trying to persuade you to join an extremist or terrorist activity, who should you contact?',
+        'Your local police force',
+        'National Counter Terrorism Security Office',
+        'Council Office',
+        'The Home Office',
+        [1, 0, 0, 0],
+        'If you think someone is trying to persuade you to join an extremist or terrorist cause, you should notify your local police force.'
     ),
     new Quiz(
-        'question 19',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'In what year did Ireland become a republic?',
+        '1925',
+        '1939',
+        '1949',
+        '1927',
+        [0, 0, 1, 0],
+        'Ireland became a republic in 1949.'
     ),
     new Quiz(
-        'question 20',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Women over the age of 30 were given the right to vote as a result of their contribution towards the war effort. Which war was that?',
+        'The First World War',
+        'The Second World War',
+        'The Irish War of Independence',
+        'The Great Northern War',
+        [1, 0, 0, 0],
+        'In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War.'
     ),
     new Quiz(
-        'question 21',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Where is the United Kingdom geographically located?',
+        'North-West of Europe',
+        'South-West of Europe',
+        'North-East of Europe',
+        'South-East of Europe',
+        [1, 0, 0, 0],
+        'The United Kingdom is a sovereign state located off the North-Western coast of continental Europe.'
     ),
     new Quiz(
-        'question 22',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'When were men and women given the right to vote at the age of 21?',
+        '1918',
+        '1926',
+        '1928',
+        '1930',
+        [0, 0, 1, 0],
+        'The 1928 \'Representation of the People\' Act widened suffrage by giving women electoral equality with men. It gave the vote to all women over 21 years old, regardless of property ownership. '
     ),
     new Quiz(
-        'question 23',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which of the following is TRUE regarding St Helena:',
+        'is an independent state',
+        'is part of the EU',
+        'is part of the UK',
+        'is a British overseas territory',
+        [0, 0, 0, 1],
+        'St Helena is a British overseas territory but is not part of the UK'
     ),
     new Quiz(
-        'question 24',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'What is the Home Secretary responsible for?',
+        'Law',
+        'Finance',
+        'Education',
+        'Policing',
+        [0, 0, 0, 1],
+        'The Home Secretary is responsible for crime, policing and immigration'
     ),
-    */
+    new Quiz(
+        'Which of the following is a fundamental British value:',
+        'Individual liberty',
+        'Traditional Culture',
+        'Harmony',
+        'Self Development',
+        [1, 0, 0, 0],
+        'The Fundamental British Values are Democracy, Rule of Law, Respect and Tolerance, Individual Liberty.'
+    ),
 ];
 
 var quiz2 = [
