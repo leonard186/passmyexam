@@ -79,18 +79,19 @@
         <!-- Quiz section -->
 
         <div id="quiz">
-            <span class="close">&times;</span>
+            <span id="close" class="close">EXIT</span>
             <div class="container quiz-container">
 
                 <!-- Finished quiz layout -->
                 <div id="finished">
-                    <h3 id="final-score"></h3>
-                    <button class="answer" id="finished-btn">Finish this quiz</button>
+                    <div id="final-score"></div>
+                    <button class="submit-btn" id="finished-btn">Finish Quiz</button>
                 </div>
 
                 <!-- Quiz layout -->
                 <div id="quiz-layout">
                     <div class="quiz-info">
+                        <div id="quiz-name">Quiz</div>
                         <div id="quiz-count"></div>
                         <div id="count-down"></div>
                     </div>
@@ -132,7 +133,7 @@
 
                     </div>
                     <button class="submit-btn answer show" id="submit-btn"  type="submit">Check answer</button>
-                    <button class="submit-btn answer hide" id="submit-btn-next" type="submit">Continue</button>
+                    <button class="submit-btn answer hide" id="submit-btn-next" type="submit">Continue >> </button>
                 </div>
             </div>
         </div>

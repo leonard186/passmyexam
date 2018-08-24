@@ -309,15 +309,16 @@ Quiz section
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: red;
     float: right;
-    font-size: 28px;
+    font-size: 1rem;
     font-weight: bold;
+    padding: 0 0.5rem 0 0
 }
 
 .close:hover,
@@ -329,9 +330,17 @@ Quiz section
 
 .answer {
     padding: 0.2rem;
-
     border-radius: 0.35rem;
     margin: 0.2rem 0.2rem;
+}
+
+.quiz-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.2rem;
+    font-size: 0.8rem;
+    font-style: italic;
+    background-color: #7EB3FF;
 }
 
 #question {
@@ -342,10 +351,57 @@ Quiz section
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
+    border: 0.1rem solid #ACB8BF;
+    border-radius: 0.2rem;
+}
+
+#info, #question {
+    padding: 1.5rem 0;
+}
+
+#submit-btn {
+    background-color: #7EB3FF;
+    transition: background-color 0.5s;
+}
+
+#submit-btn:active, #submit-btn:hover {
+    background-color: #4673B2;
+}
+
+#submit-btn-next {
+    background-color: #FFCB71;
+    transition: background-color 0.5s;
+}
+
+#submit-btn-next:active, #submit-btn-next:hover {
+    background-color: #F2F2F2;
+}
+
+#finished-btn {
+    padding: 0.5rem;
+    width: 100%;
+    margin: 1rem auto 0 auto;
+    border: none;
+    background-color: #7EB3FF;
+    transition: background-color 0.5s;
+}
+
+#finished-btn:active, #finished-btn:hover {
+    background-color: #4673B2;
+}
+
+#final-score h3, #final-score p {
+    padding: 0.5rem 0;
 }
 
 .submit-btn {
-background-color:yellow;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    width: 100%;
+    padding: 0.9rem;
+    margin: auto;
+    border-radius: 0.2rem;
 }
 
 #finished {

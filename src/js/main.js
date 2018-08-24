@@ -10,13 +10,13 @@ var Quiz = function(question, answer1, answer2, answer3, answer4, correct, info)
 
 var quiz1 = [
     new Quiz(
-        'question 1',
-        'wrong answer1',
-        'wrong answer2',
-        'correct answer1',
-        'correct answer2',
-        [0, 0, 1, 1],
-        'just because'
+        'By law, which TWO types of media have to give a balanced coverage of all political parties and equal time to rival viewpoints before an election?',
+        'Television',
+        'Radio',
+        'Internet',
+        'Newspapers',
+        [1,1, 0, 0],
+        'By law, radio and television coverage of the political parties must be balanced and so equal time has to be given to rival viewpoints.'
     ),
     new Quiz(
         'question 2',
@@ -25,6 +25,227 @@ var quiz1 = [
         'wrong answer5',
         'correct answer2',
         [0, 0, 0, 1],
+        'just because'
+    ),
+    new Quiz(
+        'question 3',
+        'wrong answer1',
+        'wrong answer2',
+        'correct answer1',
+        'wrong answer',
+        [0, 0, 1, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 4',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 5',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    /*
+    new Quiz(
+        'question 6',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 7',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 8',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 9',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 10',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 11',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 12',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 13',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 14',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 15',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 16',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 17',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 18',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 19',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 20',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 21',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 22',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 23',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    new Quiz(
+        'question 24',
+        'correct answer1',
+        'correct answer2',
+        'wrong answer',
+        'wrong answer',
+        [1, 1, 0, 0],
+        'just because'
+    ),
+    */
+];
+
+var quiz2 = [
+    new Quiz(
+        'question 1',
+        'correct answer1',
+        'wrong answer2',
+        'wrong answer1',
+        'correct answer2',
+        [1, 0, 0, 1],
+        'just because'
+    ),
+    new Quiz(
+        'question 2',
+        'correct answer3',
+        'wrong answer4',
+        'wrong answer5',
+        'correct answer2',
+        [1, 0, 0, 1],
         'just because'
     ),
     new Quiz(
@@ -239,7 +460,8 @@ var model = (function(){
         score: 0,
 
         //set timer value
-        timer: 5,
+        timerCount: 0,
+        timeRemaining: 2700,
 
         //storing the quiz array
         quizArray: [],
@@ -280,12 +502,50 @@ var model = (function(){
             var percentageScore = Math.round((totalScore / totalQuestions) * 100);
             return percentageScore;
         },
+
+        countDownTimer: function() {
+            var renderElem = this.getID('count-down');
+            renderElem.innerHTML = convert(model.timeRemaining - model.timerCount);
+
+            //formats any single digit to double digits
+            function format(n) {
+                return (n < 10 ? '0' : '') + n;
+            }
+
+            //converts 60 seconds to 1 minute
+            function convert(sec) {
+                var minutes = Math.floor( sec / 60);
+                var seconds = sec % 60;
+                return `${format(minutes)} min : ${format(seconds)} sec`;
+            }
+
+            //set the interval for every 1 second
+            var interval = setInterval(timing, 1000);
+
+            //increment timer
+            function timing() {
+                model.timerCount++;
+                renderElem.innerHTML = convert(model.timeRemaining - model.timerCount);
+                if(model.timeRemaining === model.timerCount) {
+                    model.getID('quiz-layout').style.display = 'none';
+                    model.getID('finished').style.display = 'block';
+                    model.getID('final-score').innerHTML =
+                        `<h3 class="red bold">Failed! Time is up ...</h3> 
+                         <p>The time limit is  <span class="bold green">45 minutes</span></p>
+                         <p>So far you scored <span class="bold">${model.score}</span>  
+                         out of <span class="bold">${model.quizArray.length}</span> 
+                         (<span class="red bold">${model.scorePercentage()}%</span>)</p>`;
+                    model.timerCount = 0;
+                    clearInterval(interval);
+                }
+            }
+        },
     }
 
 })();
 
 //user interface controller
-var view = (function (name){
+var view = (function (){
 
     //access dom elements
     var elem = {
@@ -304,8 +564,7 @@ var view = (function (name){
         quizLayout: model.getID('quiz-layout'),
         finishedBtn: model.getID('finished-btn'),
         finalScore: model.getID('final-score'),
-        quizCount: model.getID('quiz-count'),
-        countDown: model.getID('count-down')
+        quizCount: model.getID('quiz-count')
     };
 
 
@@ -360,25 +619,6 @@ var view = (function (name){
         }
     };
 
-    //when this function is called it will display final results tot he DOM
-    var renderScore = function() {
-        var percentageScore = model.scorePercentage();
-        if(percentageScore >= 75) {
-            return elem.finalScore.innerHTML =
-                `<h3 class="green bold">Passed</h3>
-                <p>Your scored <span class="bold">${model.score}</span> out of 
-                <span class="bold">${model.quizArray.length}</span> 
-                (<span class="green bold">${model.scorePercentage()}%</span>)</p>`;
-        } else {
-            return elem.finalScore.innerHTML =
-                `<h3 class="red bold">Failed!</h3> 
-                <p>The pass rate is <span class="bold green">75%</span> or higher</p>
-                <p>You scored <span class="bold">${model.score}</span>  
-                out of <span class="bold">${model.quizArray.length}</span> 
-                (<span class="red bold">${model.scorePercentage()}%</span>)</p>`;
-        }
-    };
-
     //toggle between submit and continue(next) button
     var toggleButtons = function() {
         if (model.hasClass(elem.submit, 'show')) {
@@ -395,23 +635,32 @@ var view = (function (name){
         }
     };
 
-    var countDownTimer = function() {
-        var renderElem = elem.countDown;
-        renderElem.innerHTML = model.timer;
-        function timing() {
-            model.timer--;
-            renderElem.innerHTML = model.timer;
+    //when this function is called it will display final results tot he DOM
+    var renderScore = function() {
+        var percentageScore = model.scorePercentage();
+        if( percentageScore >= 75) {
+            return elem.finalScore.innerHTML =
+                `<h3 class="green bold">Passed</h3>
+                <p>Your scored <span class="bold">${model.score}</span> out of 
+                <span class="bold">${model.quizArray.length}</span> 
+                (<span class="green bold">${percentageScore}%</span>)</p>`;
+        }  else {
+            return elem.finalScore.innerHTML =
+                `<h3 class="red bold">Failed!</h3> 
+                <p>The pass rate is <span class="bold green">75%</span> or higher</p>
+                <p>You scored <span class="bold">${model.score}</span>  
+                out of <span class="bold">${model.quizArray.length}</span> 
+                (<span class="red bold">${percentageScore}%</span>)</p>`;
         }
-        setInterval(timing, 1000)
     };
 
-
-
     return {
+
         //render the quiz to the dom with appropriate logic
         generateQuiz: function(chooseQuiz) {
+            //initiate quiz array
             model.getArray(chooseQuiz);
-            countDownTimer();
+
             //render the questions and answers into the appropriate elements
             function render() {
                 elem.quizCount.innerHTML = `Question ${model.counter + 1} of ${model.quizArray.length}`;
@@ -451,9 +700,9 @@ var view = (function (name){
 
             //move to next question while validating the answer
             elem.submit.addEventListener("click", function(){
-                console.log(`good counter is: ${selected}`);
-                console.log(`wrong counter is: ${wrong}`);
-                console.log(`correct counter is: ${correctCount}`);
+                //console.log(`good counter is: ${selected}`);
+                //console.log(`wrong counter is: ${wrong}`);
+                //console.log(`correct counter is: ${correctCount}`);
 
                 //initiate validation process
                 checkSelected();
@@ -475,7 +724,7 @@ var view = (function (name){
                     elem.info.innerHTML =
                         `<h2 class="red bold">Incorrect</h2>
                          <p>${model.quizArray[model.counter].info}</p>`;
-
+                    renderScore();
                     toggleButtons();
                     resetCounter();
                 }
@@ -500,15 +749,45 @@ var view = (function (name){
         finished: function() {
             elem.finishedBtn.addEventListener('click', model.refresh);
         },
+
     }
 })();
 
 //global controller
 var controller = (function(model, view){
 
+    var initiateQuiz = function(quiz) {
+        var quizModal = document.getElementById('quiz');
+        var closeButton = document.getElementById('close');
+        closeButton.onclick = function() {
+            location.reload();
+        };
+        view.generateQuiz(quiz);
+        quizModal.style.display = "block";
+    };
+
+    var renderQuizOnClick = function() {
+
+
+        model.getID('btn-1').addEventListener('click', function() {
+            initiateQuiz(quiz1);
+            model.countDownTimer();
+            model.getID('quiz-name').innerHTML += ' 1';
+            model.getID('finished-btn').innerHTML += ' 1';
+        });
+
+        model.getID('btn-2').addEventListener('click', function() {
+            initiateQuiz(quiz2);
+            model.countDownTimer();
+            model.getID('quiz-name').innerHTML += ' 2';
+            model.getID('finished-btn').innerHTML += ' 2';
+        });
+    };
+
+
     return {
         init: function(){
-            view.generateQuiz(quiz1);
+            renderQuizOnClick();
             view.finished();
         }
     }
