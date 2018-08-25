@@ -230,223 +230,3068 @@ var quiz1 = [
 
 var quiz2 = [
     new Quiz(
-        'question 1',
-        'correct answer1',
-        'wrong answer2',
-        'wrong answer1',
-        'correct answer2',
-        [1, 0, 0, 1],
-        'just because'
+        'Which jubilee did Queen Elizabeth II celebrate in 2012?',
+        'Diamond',
+        'Platinum',
+        'Golden',
+        'Silver',
+        [1, 0, 0, 0],
+        'The Diamond Jubilee of Elizabeth II was a multinational celebration throughout 2012, that marked the 60th anniversary of the accession of Queen Elizabeth II on 6 February 1952'
     ),
     new Quiz(
-        'question 2',
-        'correct answer3',
-        'wrong answer4',
-        'wrong answer5',
-        'correct answer2',
-        [1, 0, 0, 1],
-        'just because'
+        'Who was the first man in the world to run 1 mile in under 4 minutes?',
+        'Usain Bolt',
+        'Mo Farah',
+        'Steve Ovett',
+        'Sir Roger Bannister',
+        [0, 0, 0, 1],
+        'Sir Roger Gilbert Bannister (23 March 1929 – 3 March 2018) was a British middle-distance athlete and neurologist who ran the first sub-4-minute mile'
     ),
     new Quiz(
-        'question 3',
-        'wrong answer1',
-        'wrong answer2',
-        'correct answer1',
-        'wrong answer',
+        'Which conservation charity works to preserve important buildings, coastline and countryside in the UK?',
+        'Oxfam',
+        'Wellcome Trust',
+        'The National Trust',
+        'The Salvation Army',
         [0, 0, 1, 0],
-        'just because'
+        'The National Trust is a charity that works to preserve and protect historic places and spaces for ever, for everyone'
     ),
     new Quiz(
-        'question 4',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Scotland has its own banknotes and:',
+        'Are only valid in Scotland',
+        'Are valid everywhere in the UK',
+        'Are only valid in Scotland and England',
+        'Are only valid in Scotland, England and Wales',
+        [0, 2, 0, 0],
+        'Scotland has its own banknotes, which are valid everywhere in the UK'
     ),
     new Quiz(
-        'question 5',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
-    ),
-    /*
-    new Quiz(
-        'question 6',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who introduced the printing press into England and first used it to print books',
+        'William Caxton',
+        'Gilbert Kymer',
+        'Robert Bale',
+        'William Cornysh',
+        [1, 0, 0, 0],
+        'William Caxton was an English merchant, diplomat, writer and is thought to be the first person to introduce a printing press into England, in 1476, and as a printer was the first English retailer of printed books'
     ),
     new Quiz(
-        'question 7',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which sport originated from Scotland in the 15th century',
+        'Football',
+        'Rugby',
+        'Golf',
+        'Tennis',
+        [0, 0, 1, 0],
+        'Golf as we know it today originated from a game played on the eastern coast of Scotland in the Kingdom of Fife during the 15th century'
     ),
     new Quiz(
-        'question 8',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Solicitors\' charges are usually based on:',
+        'The nature of a case',
+        'Time spent on a case',
+        'The importance and complexity of a case',
+        'The number of meetings they had with the client',
+        [0, 1, 0, 0],
+        'Solicitors’ charges are usually based on how much time they spend on a case.'
     ),
     new Quiz(
-        'question 9',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'What will you be given to vote before an election takes place?',
+        'A letter from the Council',
+        'A voting number',
+        'A reference number',
+        'A poll card',
+        [0, 0, 0, 1],
+        'The local Electoral Registration Office will send a poll card just before an election telling where and when to vote'
     ),
     new Quiz(
-        'question 10',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'What is Good Friday?',
+        'The day Jesus Christ was born',
+        'The day Jesus Christ was Crucified',
+        'The first Friday after Easter',
+        'The first Friday before Christmas',
+        [0, 1, 0, 0],
+        'The Friday before Easter Sunday, on which the Crucifixion of Christ is commemorated in the Christian Church. It is traditionally a day of fasting and penance'
     ),
     new Quiz(
-        'question 11',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which religious communities celebrate Diwali?',
+        'Buddhists',
+        'Hindus',
+        'Jews',
+        'Sikhs',
+        [0, 1, 0, 1],
+        'Diwali, the Hindu festival of lights, is the most popular of all the festivals. It is also an occasion for celebration by Sikhs'
     ),
     new Quiz(
-        'question 12',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'How many members does a jury have in England, Wales and Northern Ireland?',
+        '7',
+        '12',
+        '16',
+        '10',
+        [0, 1, 0, 0],
+        ''
     ),
     new Quiz(
-        'question 13',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who is the patron Saint of Wales?',
+        'St George',
+        'St Patrick',
+        'St David',
+        'St Andrew',
+        [0, 0, 1, 0],
+        'Saint David was a Welsh bishop of Mynyw (now St Davids) during the 6th century; he was later regarded as a saint. He is the patron saint of Wales.'
     ),
     new Quiz(
-        'question 14',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which country was invaded by Germany in 1939?',
+        'Poland',
+        'Hungary',
+        'France',
+        'Britain',
+        [1, 0, 0, 0],
+        'In August of 1939, Nazi Germany and the Soviet Union signed a non-aggression treaty. One week later, Germany invaded Poland and World War II began'
     ),
     new Quiz(
-        'question 15',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who is the head of the Church of England?',
+        'The Archbishop of Canterbury',
+        'The Pope',
+        'The Prime minister',
+        'The Monarch',
+        [0, 0, 0, 1],
+        'The Archbishop of Canterbury is the most senior cleric, although the monarch is the supreme governor'
     ),
     new Quiz(
-        'question 16',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'When did women get the right to vote at the same age as men?',
+        '1936',
+        '1928',
+        '1945',
+        '1916',
+        [0, 1, 0, 0],
+        'It was not until the Equal Franchise Act of 1928 that women over 21 were able to vote and women finally achieved the same voting rights as men'
     ),
     new Quiz(
-        'question 17',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Which two countries developed the Concorde, the world’s only supersonic commercial airliner?',
+        'Britain',
+        'Germany',
+        'Spain',
+        'France',
+        [1, 0, 0, 1],
+        'The Concorde is a British-French turbojet-powered supersonic passenger airliner that was operated from 1976 until 2003. It had a maximum speed over twice the speed of sound at Mach 2.04'
     ),
     new Quiz(
-        'question 18',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'What are the tour guides called that tell visitors stories about the Tower of London?',
+        'The Queen\'s Guard',
+        'Storytellers',
+        'Beefeaters',
+        'Blue Badge Tourist Guides',
+        [0, 0, 1, 0],
+        'The guards at the Tower of London are called Yeoman Warders. In principle they are responsible for looking after any prisoners at the Tower and safeguarding the British crown jewels, but in practice they act as tour guides and are a tourist attraction in their own right'
     ),
     new Quiz(
-        'question 19',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'When is The National Anthem ‘God save the queen’  played?',
+        'In the presence of the Queen',
+        'At important national occasions',
+        'At events attended by the Queen or the Royal Family',
+        'During holiday period',
+        [0, 1, 1, 0],
+        'The National Anthem is played at important national occasions and at events attended by the Queen or the Royal Family.'
     ),
     new Quiz(
-        'question 20',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Where did the first farmers come from?',
+        'North-East Europe',
+        'South-East Europe',
+        'North-West Europe',
+        'South-West Europe',
+        [0, 1, 0, 0],
+        'The first farmers arrived in Britain 6,000 years ago. The ancestors of these first farmers probably came from South-East Europe'
     ),
     new Quiz(
-        'question 21',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who fought in the War of the Roses?',
+        'The House of York',
+        'The House of Fraser',
+        'The House of Lancaster',
+        'The House of Birmingham',
+        [1, 0, 1, 0],
+        'The Wars of the Roses were a series of battles fought in medieval England from 1455 to 1485 between the House of Lancaster and the House of York'
     ),
     new Quiz(
-        'question 22',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'What did The Bill of Rights of 1689 confirm?',
+        'The rights of Parliament and the limits of the king’s power',
+        'The right to vote for men and women',
+        'Freedom of Religion',
+        'The Right to Bear Arms',
+        [1, 0, 0, 0],
+        'The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king’s power.'
     ),
     new Quiz(
-        'question 23',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Great Britain refers only to: ',
+        'England and Scotland',
+        'England, Wales and Scotland',
+        'England and Wales',
+        'England, Wales, Scotland and Northern Ireland',
+        [0, 1, 0, 0],
+        'Great Britain refers only to England, Wales and Scotland'
     ),
     new Quiz(
-        'question 24',
-        'correct answer1',
-        'correct answer2',
-        'wrong answer',
-        'wrong answer',
-        [1, 1, 0, 0],
-        'just because'
+        'Who was supported by clansmen from the Scottish highlands and raised and army in 1745?',
+        'Robert the Bruce',
+        'Oliver Cromwell',
+        'Redcoats',
+        'Bonnie Prince Charlie',
+        [0, 0, 0, 1],
+        'In 1745 there was another attempt to put a Stuart king back on the throne in place of George I’s son, George II. Charles Edward Stuart (Bonnie Prince Charlie), the grandson of James II, landed in Scotland. He was supported by clansmen from the Scottish highlands and raised and army'
     ),
-    */
+    new Quiz(
+        'What is the long war called that English kings fought with France in the middle ages?',
+        'First Barons\' War',
+        'Seven Year\'s war',
+        'The Battle of Hastings',
+        'The Hundred Years War',
+        [0, 0, 0, 1],
+        'The Hundred Years\' War was a series of conflicts waged from 1337 to 1453 by the House of Plantagenet, rulers of the Kingdom of England, against the French House of Valois, over the right to rule the Kingdom of France'
+    )
+];
+
+var quiz3 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz4 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz5 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz6 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz7 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz8 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz9 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz10 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz11 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz12 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz13 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz14 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
+];
+
+var quiz15 = [
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    ),
+    new Quiz(
+        '',
+        '',
+        '',
+        '',
+        '',
+        [0, 0, 0, 0],
+        ''
+    )
 ];
 
 //quiz controller
