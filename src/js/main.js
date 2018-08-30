@@ -1712,486 +1712,486 @@ var quiz7 = [
 var quiz8 = [
     //Question 1
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who was the leader of the Iceni tribe that fought against the Romans',
+        'Boudica of the British Iceni',
+        'Caratacus of the British Catuvellauni',
+        'Brennus of the Gaulish Senones',
+        'Vercingetorix of the Gaulish Arverni',
+        [1, 0, 0, 0],
+        'Boudica was a queen of the British Celtic Iceni tribe who led an uprising against the occupying forces of the Roman Empire in AD 60 or 61, and died shortly after its failure, having supposedly poisoned herself'
     ),
     //Question 2
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which invention powered Britain to prominence as the first industrial country in the world?',
+        'Steam Power',
+        'Automobiles',
+        'Hydraulic machinery',
+        'Electrical Telegraph',
+        [1, 0, 0, 0],
+        'Steam engine: 1712 Innovative steam engines produced by Thomas Newcomen and developed by James Watt powered Britain to prominence as the first industrial country in the world. For almost 200 years(18th and 19th Century) it was the outstanding source of power for industry and transport systems in the West'
     ),
     //Question 3
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following countries helped Britain to develop the Concorde?',
+        'U.S.A',
+        'France',
+        'Spain',
+        'Sweden',
+        [0, 1, 0, 0],
+        'The Aérospatiale/BAC Concorde is a British-French turbojet-powered supersonic passenger airliner that was operated from 1976 until 2003. It had a maximum speed over twice the speed of sound at Mach 2.04, with seating for 92 to 128 passengers'
     ),
     //Question 4
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who are civil servants accountable to?',
+        'National Health Service (NHS)',
+        'British Armed Forces',
+        'Members of the Royal Household',
+        'Ministers',
+        [0, 0, 0, 1],
+        'Civil servants support the government in developing and implementing its policies. They also deliver public services. Civil servants are accountable to ministers. They are chosen on merit and are politically neutral - they are not political appointees. Their core values are integrity, honesty, objectivity and impartiality(including being politically neutral)'
     ),
     //Question 5
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Why were canals built during the Industrial Revolution?',
+        'To increase tourism',
+        'So big ships can get into the English mainland',
+        'To link the factories to towns and cities and to the ports',
+        'It was part of the sewage system development',
+        [0, 0, 1, 0],
+        'Better transport links were needed to transport raw materials and manufactured goods. Canals were built to link the factories to towns and cities and to the ports, particularly in the new industrial areas in the middle and north of England'
     ),
     //Question 6
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'On how many occasions did the U.K. host the Olympic Games?',
+        '1',
+        '2',
+        '3',
+        '7',
+        [0, 0, 1, 0],
+        'The U.K. has hosted the Olympic Games on three occasions: 1908, 1948 and 2012. The main Olympic site for the 2012 Games was in Stratford, East London'
     ),
     //Question 7
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who became British Prime Minister in 1945?',
+        'Winston Churchill',
+        'Clement Attlee',
+        'Neville Chamberlain',
+        'Sir Anthony Eden',
+        [0, 1, 0, 0],
+        'In 1945 the British people elected a Labour government. The new Prime Minister was Clement Attlee, who promised to introduce the welfare state outlined in the Beveridge Report. Under his political leadership of the Government, the NHS was created which guaranteed a minimum standard of health care for all, free at the point of use'
     ),
     //Question 8
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the traditional food of Northern Ireland?',
+        'Scotch eggs',
+        'White pudding',
+        'Pork pie',
+        'Ulster Fry',
+        [0, 0, 0, 1],
+        'The traditional food for Northern Ireland is Ulster fry - a fried meal with bacon. eggs, sausage, black pudding, white pudding, tomatoes, mushrooms, soda bread and potato bread'
     ),
     //Question 9
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the system of government in the U.K.?',
+        'Parliamentary Democracy',
+        'Republic',
+        'Absolute monarchy',
+        'Presidential system',
+        [1, 0, 0, 0],
+        'The United Kingdom is a unitary state with devolution that is governed within the framework of a parliamentary democracy under a constitutional monarchy in which the monarch, is the head of state while the Prime Minister of the United Kingdom, is the head of government'
     ),
     //Question 10
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the minimum age requirement in the U.K. to be able to go into betting shops and gambling clubs?',
+        '16',
+        '18',
+        '21',
+        '25',
+        [0, 1, 0, 0],
+        'You have to be 18 or over to go into betting shops or gambling clubs'
     ),
     //Question 11
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who was the first Archbishop of Canterbury?',
+        'Laurence of Canterbury',
+        'Saint Alban',
+        'Mellitus of Canterbury',
+        'Saint Augustine',
+        [0, 0, 0, 1],
+        'Augustine of Canterbury was a Catholic Benedictine monk who became the first Archbishop of Canterbury in the year 597'
     ),
     //Question 12
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What monuments are found in Wiltshire?',
+        'Westminster Abbey',
+        'Roman Baths',
+        'Stonehenge',
+        'Hadrian\'s Wall',
+        [0, 0, 1, 0],
+        'Stonehenge is a prehistoric monument in Wiltshire, England, 2 miles west of Amesbury. It consists of a ring of standing stones, with each standing stone around 13 feet high, 7 feet wide and weighing around 25 tons'
     ),
     //Question 13
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which war was first to be extensively covered by the media?',
+        'The Crimean War',
+        'First World War',
+        'Napoleonic Wars',
+        'The Troubles',
+        [1, 0, 0, 0],
+        'The Crimean War was the first war to be extensively covered by the media through news stories and photographs'
     ),
     //Question 14
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who mapped the coast of Australia?',
+        'James Cook',
+        'Christopher Columbus',
+        'Francis Drake',
+        'Vasco da Gama',
+        [1, 0, 0, 0],
+        'Captain James Cook (7 November 1728 – 14 February 1779) was a British explorer, navigator, cartographer, and captain in the Royal Navy. He mapped the coast of Australia and a few colonies were established there',
     ),
     //Question 15
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who appoints life peers in the House of Lords?',
+        'The Prime Minister',
+        'The monarch',
+        'Local Council',
+        'The Archbishop of Canterbury',
+        [0, 1, 0, 0],
+        'Life peers are appointed by the monarch on the advice of the Prime Minister'
     ),
     //Question 16
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following is a rugby competition?',
+        'EFL Championship',
+        'The British Grand Prix',
+        'The Ashes',
+        'The Six Nations Championship',
+        [0, 0, 0, 1],
+        'The Six Nations Championship is an annual international rugby union competition between the teams of England, France, Ireland, Italy, Scotland and Wales'
     ),
     //Question 17
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Through which official reports can the public get information about proceedings in the Parliament?',
+        'England Law Reports',
+        'Treasury minutes',
+        'Hansard',
+        'Fiscal sustainability report',
+        [0, 0, 1, 0],
+        'Hansard (the Official Report) is the edited verbatim report of proceedings of both the House of Commons and the House of Lords. These proceedings in the Parliament are also broadcast on television'
     ),
     //Question 18
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'When is Hogmanay celebrated?',
+        '31st of December',
+        'January 1',
+        '25th of December',
+        'April 1',
+        [1, 0, 0, 0],
+        'Hogmanay is the Scots word for the last day of the year(31st of December) and is synonymous with the celebration of the New Year in the Scottish manner'
     ),
     //Question 19
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which best known British Admiral died at the battle of Trafalgar?',
+        'Admiral Edward Hawke',
+        'Admiral Robert Blake',
+        'Admiral Nelson',
+        'Admiral George Rodney',
+        [0, 0, 1, 0],
+        'Vice Admiral Horatio Nelson, 1st Viscount Nelson, 1st Duke of Bronté, (29 September 1758 – 21 October 1805) was a British flag officer in the Royal Navy. He was noted for his inspirational leadership, grasp of strategy, and unconventional tactics, which together resulted in a number of decisive British naval victories, particularly during the Napoleonic Wars. He was shot and killed during his final victory at the Battle of Trafalgar near the port city of Cádiz in 1805'
     ),
     //Question 20
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What ideas did Adam Smith develop about during the Enlightenment Age?',
+        'Economics',
+        'Science',
+        'Engineering',
+        'Philosophy',
+        [1, 0, 0, 0],
+        'Compared to other major Enlightenment thinkers Adam Smith (1723—1790) devoted most of his time towards the economic ideas of the Enlightenment Era, such as the idea of laissez-faire and the law of supply which created the basic concepts of modern economics'
     ),
     //Question 21
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following actresses has NOT won an Oscar?',
+        'Dame Judi Dench',
+        'Sir Antony Hopkins',
+        'Colin Firth',
+        'Emily Watson',
+        [0, 0, 0, 1],
+        'British actors to have won Oscars include Colin Firth, Sir Antony Hopkins, Dame Judi Dench, Kate Winslet and Tilda Swinton. Emily Watson has not won an Oscar yet'
     ),
     //Question 22
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who was the first British Prime Minister?',
+        'Spencer Perceval',
+        'Sir Robert Walpole',
+        'Robert Banks Jenkinson ',
+        'Oliver Cromwell',
+        [0, 1, 0, 0],
+        'The most important minister in Parliament became known as the Prime Minister. The first man to be called this was Sir Robert Walpole, who was Prime Minister from 1721 to 1742'
     ),
     //Question 23
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'How are members of the Northern Ireland Parliament elected?',
+        'Majoritarian systems',
+        'Indirect elections',
+        'By a system of proportional representation',
+        'Plurality systems',
+        [0, 0, 1, 0],
+        'Proportional representation is an electoral system in which the distribution of seats corresponds closely with the proportion of the total votes cast for each party. For example, if a party gained 40% of the total votes, a perfectly proportional system would allow them to gain 40% of the seats. The Northern Ireland Assembly has 108 elected members, known as MLAs (members of the Legislative Assembly)'
     ),
     //Question 24
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'When is St Patrick’s day celebrated?',
+        '17th March',
+        '1st March',
+        '18th March',
+        '16th March',
+        [1, 0, 0, 0],
+        'Saint Patrick\'s Day, or the Feast of Saint Patrick, is a cultural and religious celebration held on 17 March, the traditional death date of Saint Patrick, the foremost patron saint of Northern Ireland and Ireland'
     )
 ];
 
 var quiz9 = [
     //Question 1
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two documents do you need to apply for a National Insurance number?',
+        'Documents that prove that you have permission to work in the UK',
+        'Documents that prove your identity',
+        'A contract of employment',
+        'A document with your address on it, such as a utility bill',
+        [1, 1, 0, 0],
+        'To apply for a National Insurance number you need documents that prove your identity and that you have permission to work in the UK'
     ),
     //Question 2
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following statements is true:',
+        'Elizabeth I was a Protestant and she persecuted the Catholics',
+        'Elizabeth I was a Catholic and she persecuted the Protestants',
+        'Elizabeth I was a Protestant and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants.',
+        'Elizabeth I was a Catholic and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants.',
+        [0, 0, 1, 0],
+        'Elizabeth I was brought up a Protestant. She realised that religion had caused a lot of problems for England. She tried to find a \'middle way\' that both Catholics and Protestants could accept'
     ),
     //Question 3
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'In 1913, the British government promised ‘Home Rule’ for Ireland, why were any changes in Ireland delayed until 1921?',
+        'Due to the Irish Republican Nationalist Movement',
+        'Due to the outbreak of the First World War',
+        'Due to the outbreak of the Second World War',
+        'Because of religious differences',
+        [0, 1, 0, 0],
+        'The outbreak of the First World War led the British government to postpone any changes in Ireland'
     ),
     //Question 4
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two of the following records give us information about England during the reign of William I?',
+        'The Domesday Book',
+        'The Magna Carta',
+        'The Canterbury Tales',
+        'The Bayeux Tapestry',
+        [1, 0, 0, 1],
+        'The Bayeux Tapestry is an embroidered cloth nearly 70 metres long and 50 centimetres tall, which depicts the events leading up to the Norman conquest of England concerning William the Conqueror. The Domesday Book is a manuscript record of the "Great Survey" of much of England and parts of Wales completed in 1086 by order of King William the Conqueror'
     ),
     //Question 5
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which court deals with minor criminal offences in Scotland?',
+        'Court of Appeal',
+        'The Justice of the Peace Court',
+        'Coroners\' court',
+        'Magistrates\' and youth court',
+        [0, 1, 0, 0],
+        'A justice of the peace court is the least authoritative type of criminal court in Scotland. The court operates under summary procedure and deals primarily with less serious criminal offences'
     ),
     //Question 6
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Haggis is a traditional food from which part of the U.K.?',
+        'Scotland',
+        'England',
+        'Wales',
+        'Northern Ireland',
+        [1, 0, 0, 0],
+        'Haggis is a traditional Scottish sausage made from a sheep\'s stomach stuffed with diced sheep\'s liver, lungs and heart, oatmeal, onion, suet and seasoning'
     ),
     //Question 7
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'In 1348, one third of the population in England, Wales and Scotland died as a result of which disease?',
+        'Smallpox',
+        'The Black Death',
+        'Tuberculosis',
+        'Whooping Cough',
+        [0, 1, 0, 0],
+        'The Black Death was a bubonic plague pandemic, which reached England in June 1348. One third of the population of England died and a similar proportion in Scotland and Wales'
     ),
     //Question 8
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who established the Church of England?',
+        'William of Orange',
+        'Henry VII',
+        'Henry VIII',
+        'Mary I of England',
+        [0, 0, 1, 0],
+        'Henry VIII started the process of creating the Church of England after his split with the Pope in the 1530s. Henry was anxious to ensure a male heir after his first wife, Catherine of Aragon, had borne him only a daughter. He wanted his marriage annulled in order to remarry'
     ),
     //Question 9
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two political parties formed a coalition in 2010?',
+        'The Liberal Democrats Party',
+        'The Conservative Party',
+        'The Labour Party',
+        'UKIP',
+        [1, 1, 0, 0],
+        'n May 2010 the Conservative and Liberal Democrat parties formed a coalition and the leader of the Conservative Party, David Cameron, became Prime Minister'
     ),
     //Question 10
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Where is Swansea located?',
+        'Wales',
+        'England',
+        'Northern Ireland',
+        'Scotland',
+        [1, 0, 0, 0],
+        'Swansea it is located in Wales'
     ),
     //Question 11
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What type of battle was the ‘Battle of Britain’, fought between Germany and Britain in the summer of 1940?',
+        'An aerial battle',
+        'A naval battle',
+        'A Land battle',
+        'A passive battle',
+        [1, 0, 0, 0],
+        'The Battle of Britain was a military campaign of the Second World War, in which the Royal Air Force defended the United Kingdom against large-scale attacks by Nazi Germany\'s air force, the Luftwaffe'
     ),
     //Question 12
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'On which day is the birth of Jesus Christ celebrated?',
+        'Easter Sunday',
+        'Good Friday',
+        'Christmas Day',
+        'New Year\'s Eve',
+        [0, 0, 1, 0],
+        'Born on Christmas Day. Christians celebrate the birth of Jesus on 25 December'
     ),
     //Question 13
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who uses a system called ‘individual registration’?',
+        'Scotland ',
+        'Wales ',
+        'England',
+        'Northern Ireland',
+        [0, 0, 0, 1],
+        'Northern Ireland uses a system called ‘individual registration’ and all those entitled to vote must complete their own registration form'
     ),
     //Question 14
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who was reigning in Britain when English settlers first began to colonise the eastern coast of America?',
+        'Elizabeth I',
+        'Mary I of England',
+        'Queen Victoria',
+        'William of Orange',
+        [1, 0, 0, 0],
+        'In Elizabeth I’s time, English settlers first began to colonise the eastern coast of America'
     ),
     //Question 15
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two of the following are famous British Paralympians?',
+        'Thomas Murray',
+        'Robin Welsh',
+        'Ellie Simmonds',
+        'Baroness Tanni Grey-Thompson',
+        [0, 0, 1, 1],
+        'Baroness Tanni Grey-Thompson and Ellie Simmonds are the correct answers'
     ),
     //Question 16
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Where was William Shakespeare born?',
+        'Stratford-upon-Avon',
+        'Newcastle upon Tyne',
+        'Oxford',
+        'Warwick',
+        [1, 0, 0, 0],
+        'William Shakespeare was born in Stratford-upon-Avon, England, in April 1564'
     ),
     //Question 17
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which king was executed in 1649?',
+        'Henry VIII',
+        'James IV',
+        'Charles II',
+        'Charles I',
+        [0, 0, 0, 1],
+        'Charles I (19 November 1600 – 30 January 1649) was monarch of the three kingdoms of England, Scotland, and Ireland from 27 March 1625 until his execution in 1649'
     ),
     //Question 18
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'How often are ‘Prime Minister’s Questions’ held in the parliament?',
+        'Every month',
+        'Once a year',
+        'Every week',
+        'During Elections',
+        [0, 0, 1, 0],
+        'Prime Minister’s Questions takes place every week while Parliament is sitting'
     ),
     //Question 19
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which territories form Great Britain?',
+        'England and Wales',
+        'Northern Ireland',
+        'Scotland',
+        'The Channel Islands',
+        [1, 0, 1, 0],
+        '‘Great Britain’ refers only to England, Scotland and Wales, not to Northern Ireland'
     ),
     //Question 20
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which U.K. countries have their own established church?',
+        'Northern Ireland',
+        'Scotland',
+        'England',
+        'Wales',
+        [0, 1, 1, 0],
+        'There is no established church in Northern Ireland and Wales'
     ),
     //Question 21
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'There are 15 national parks in England, Wales and Scotland. What are national parks?',
+        'A restricted area where you cannot go',
+        'A strictly mountainous area',
+        'Areas with farm animals',
+        'Areas of protected countryside',
+        [0, 0, 0, 1],
+        'A National Park is an area of countryside, or occasionally sea or fresh water, protected by the state for the enjoyment of the general public or the preservation of wildlife'
     ),
     //Question 22
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who built the Tower of London?',
+        'William the Conqueror',
+        'Henry VIII',
+        'King Harold',
+        'King Alfred the Great',
+        [1, 0, 0, 0],
+        'The Tower of London was built in 1078 by William the conqueror'
     ),
     //Question 23
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who minted the first coins in Britain?',
+        'The People of the Bronze Age',
+        'The Romans',
+        'The people of the Iron Age',
+        'The Anglo-Saxons',
+        [0, 0, 1, 0],
+        'The Iron Age people had a sophisticated culture and economy. They made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings. This marked the beginnings of British history'
     ),
     //Question 24
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'As a British citizen what are your responsibilities?',
+        'Not going bankrupt',
+        'To respect and obey the law',
+        'To look after yourself and your family',
+        'Spy on your neighbour',
+        [0, 1, 1, 0],
+        'If you wish to be a permanent resident or citizen of the UK, you should: respect and obey the law, look after yourself and your family, respect the rights of others, including their right to their own opinions, treat others with fairness and look after the area in which you live and the environment'
     )
 ];
 
@@ -4165,7 +4165,7 @@ var view = (function (){
                     //render question related information
                     elem.info.innerHTML =
                         `<h2 class="green bold">Correct</h2>
-                         <p>${model.quizArray[model.counter].info}</p>`;
+                         <p class="alert">${model.quizArray[model.counter].info}</p>`;
 
                     toggleButtons();
                     renderScore();
@@ -4173,7 +4173,7 @@ var view = (function (){
                     //render question related information
                     elem.info.innerHTML =
                         `<h2 class="red bold">Incorrect</h2>
-                         <p>${model.quizArray[model.counter].info}</p>`;
+                         <p class="alert">${model.quizArray[model.counter].info}</p>`;
                     renderScore();
                     toggleButtons();
                     resetCounter();
