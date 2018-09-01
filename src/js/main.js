@@ -117,7 +117,7 @@ var quiz1 = [
         'Only in Northern Ireland and Scotland',
         'Everywhere in the UK',
         [0, 0, 0, 1],
-        'Northern Ireland has its own banknotes, which are valid everywhere in the UK'
+        'Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK'
     ),
     //Question 12
     new Quiz(
@@ -700,7 +700,7 @@ var quiz3 = [
         'When walking your dog in a public place, you must ensure:',
         'To wear a dog muzzle',
         'To be on a leash',
-        'To carry poop bags with you',
+        'That your dog wears a collar showing the dogs name',
         'That your dog wears a collar showing the name and address of the owner',
         [0, 0, 0, 1],
         'All dogs in public places must wear a collar showing the name and address of the owner'
@@ -2198,487 +2198,494 @@ var quiz9 = [
 var quiz10 = [
     //Question 1
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'When was the last successful foreign invasion of England?',
+        '1948',
+        '1066',
+        '980',
+        '1546',
+        [0, 0, 1, 0],
+        'The Norman Conquest was the last successful foreign invasion of England in 1066'
     ),
     //Question 2
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is known as Lent?',
+        'The 40 days after Easter',
+        'The 40 days before Christmas',
+        'Same as Good Friday',
+        'The 40 days before Easter',
+        [0, 0, 0, 1],
+        'Lent is a solemn religious observance in the Christian liturgical calendar that begins on Ash Wednesday and ends approximately six weeks later, before Easter Sunday'
     ),
     //Question 3
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'How many members form a jury in Scotland?',
+        '12',
+        '10',
+        '7',
+        '15',
+        [0, 0, 0, 1],
+        'In England, Wales and Northern Ireland a jury has 12 members, and in Scotland a jury has 15 members'
     ),
     //Question 4
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following is a major horse-racing event in England?',
+        'Royal Ascot',
+        'Formula One Grands Prix',
+        'British Drift Championship',
+        'The Six Nations Championship',
+        [1, 0, 0, 0],
+        'Ascot Racecourse is a British racecourse, located in Ascot, Berkshire, England, which is used for thoroughbred horse racing. It is one of the leading racecourses in the United Kingdom, hosting 13 of Britain\'s 36 annual Group 1 horse races. Other major horse racing events are the Grand National at Aintree near Liverpool and the Scottish Grand National at Ayr'
     ),
     //Question 5
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What do you need to do in order to apply for a National Insurance Number?',
+        'Contact your local council',
+        'Contact the Department for Work and Pensions (DWP)',
+        'Ask your employer to sort it out for you',
+        'Contact HM Revenue and Customs',
+        [0, 1, 0, 0],
+        'If you have permission to work in the UK, you will need to telephone the Department for Work and Pensions (DWP) to arrange to get a National Insurance number'
     ),
     //Question 6
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the name of the movement that went against the Roman Catholic Church and the Pope during the reign of Henry VIII?',
+        'Renaissance',
+        'The Enlightenment',
+        'The Great Liberation',
+        'The Reformation',
+        [0, 0, 0, 1],
+        'King Henry VIII (1491-1547) ruled England for 36 years, presiding over sweeping changes that brought his nation into the Protestant Reformation. The English Protestant Reformation was a series of events in 16th century England by which the Church of England broke away from the authority of the Pope and the Roman Catholic Church'
     ),
     //Question 7
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What were the first people that lived in Britain during the Stone Age?',
+        'Farmers',
+        'Sailors',
+        'Warriors',
+        'Hunter-gatherers',
+        [0, 0, 0, 1],
+        'The first people to live in Britain were hunter-gatherers, in what we call the Stone Age. For much of the Stone Age, Britain was connected by a land bridge. People came and went following the herds of deer and horses which they hunted'
     ),
     //Question 8
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What UK landmark was voted as Britain’s favourite view in 2007?',
+        'River Thames',
+        'Lake District',
+        'Hadrian\'s wall',
+        'Stonehenge',
+        [0, 1, 0, 0],
+        'In 2007, television viewers voted Wastwater (Lake District) as Britain’s favourite view'
     ),
     //Question 9
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What was the name of the activist group that was seeking the right to vote for women through organized protest?',
+        'British Federation of Women Graduates',
+        'Socialist Women\'s Network',
+        'Suffragettes',
+        'Women\'s Local Government Society',
+        [0, 0, 1, 0],
+        'Suffragettes were members of women\'s organisations in the late-19th and early-20th centuries who, under the banner "Votes for Women", fought for women\'s suffrage, the right to vote in public elections'
     ),
     //Question 10
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two of the following are Civil War Battles?',
+        'The Battle of Marston Moor',
+        'The Battle of Hastings',
+        'Battle of Maldon',
+        'The Battle of Naseby',
+        [1, 0, 0, 1],
+        'The Battle of Marston Moor (July 2nd 1644), along with the battles fought at Edgehill and Naseby, was one of the major battles of the English Civil War'
     ),
     //Question 11
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Select one of the following that is a British overseas territory but not part of the UK:',
+        'Isle of Wight',
+        'Falkland Islands',
+        'Isles of Scilly',
+        'Mersea Island',
+        [0, 1, 0, 0],
+        'The Falkland Islands are a self-governing British Overseas Territory that is linked to the U.K. but is not part of it.'
     ),
     //Question 12
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the name of the process by which many Scottish landlords destroyed individual small farms (known as ‘crofts’) to make space for large flocks of sheep and cattle?',
+        'The Reformation',
+        'The Great Famine',
+        'The Highland Potato Famine',
+        'The Highland Clearances',
+        [0, 0, 0, 1],
+        'Highland Clearances, the forced eviction of inhabitants of the Highlands and western islands of Scotland, beginning in the mid-to-late 18th century and continuing intermittently into the mid-19th century. The removals cleared the land of people primarily to allow for the introduction of sheep pastoralism'
     ),
     //Question 13
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What did the Emancipation Act of 1833 abolish throughout the British Empire?',
+        'Slavery',
+        'The powers of the monarchy',
+        'The powers of the parliament',
+        'Religious Freedom',
+        [1, 0, 0, 0],
+        'n August 1833, the Slave Emancipation Act was passed, giving all slaves in the British empire their freedom, albeit after a set period of years. Plantation owners received compensation for the \'loss of their slaves\' in the form of a government grant set at £20,000,000'
     ),
     //Question 14
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the capital city of Scotland?',
+        'Aberdeen',
+        'Glasgow',
+        'Edinburgh',
+        'Dundee',
+        [0, 0, 1, 0],
+        'Edinburgh has been the capital of Scotland since 1437, when it replaced Scone. The Scottish Parliament resides in Edinburgh. However, in the past, Edinburgh Castle was often under English control. Before the 10th Century, Edinburgh was under the control of the Anglo-Saxons and Danelaw'
     ),
     //Question 15
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'The assassination of the Archduke Franz Ferdinand of Austria in 1914 led to which of the following wars?',
+        'The Manchu Conquest of China',
+        'The Napoleonic Wars',
+        'The First World War',
+        'The Second World War',
+        [0, 0, 1, 0],
+        'Franz Ferdinand (1863-1914) was born in Graz, Austria.  As the heir to the Austro-Hungarian empire his assassination on 28 June 1914 sparked the First World War'
     ),
     //Question 16
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two issues can the devolved administrations pass laws on?',
+        'Health',
+        'Immigration',
+        'Defence',
+        'Education',
+        [1, 0, 0, 1],
+        'Policy and laws governing defence, foreign affairs, immigration, taxation and social security all remain under central UK government control. However, many other public services, such as health and education, are controlled by the devolved administrations.'
     ),
     //Question 17
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which Scottish clan was killed for not taking the oath?',
+        'The MacDonell of Glengarry',
+        'The MacDonalds of Glencoe',
+        'The Macleod of the Lewes',
+        'The Murray of Atholl',
+        [0, 1, 0, 0],
+        'The MacDonalds alliance to the Stuart cause made them more unpopular with the government for not formally accepting William as king and not taking the oath on time. This led to the Massacre of Glencoe in the early hours of the 13th of February 1692, where 38 unarmed MacDonalds were massacred'
     ),
     //Question 18
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following is an example of criminal offence?',
+        'Invasion of privacy',
+        'Smoking in public places where it is not allowed',
+        'Defamation',
+        'Tax evasion',
+        [0, 1, 0, 0],
+        'It is against the law to smoke tobacco products in nearly every enclosed public place in the UK. There are signs displayed to tell you where you cannot smoke.'
     ),
     //Question 19
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Did the Scottish led by Robert the Bruce in 1314 defeat the English at the battle of Bannockburn?',
+        'The English were victorious and conquered Scotland',
+        'The English were victorious but did not conquer Scotland',
+        'The Scots were victorious and Scotland remained unconquered by the English',
+        'The Scots were victorious but the English still managed to conquer most of Scotland',
+        [0, 0, 1, 0],
+        'In 1314 the Scottish, led by Robert the Bruce, defeated the English at the battle of Bannockburn, and Scotland remained unconquered by the English'
     ),
     //Question 20
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which 18th century industry was employing the most people in Britain?',
+        'Fishing and Mining',
+        'Farming',
+        'Manufacturing',
+        'Hospitality',
+        [0, 0, 1, 0],
+        'During the 18th century, manufacturing jobs became the main source of employment in Britain.'
     ),
     //Question 21
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the name of the most famous cricket competition played between England and Australia?',
+        'The Six Nations Championship',
+        'The Grand National',
+        'Wimbledon',
+        'The Ashes',
+        [0, 0, 0, 1],
+        'The most famous cricket competition is the Ashes, which is a series of Test matches played between England and Australia.'
     ),
     //Question 22
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which document from 1689 confirm the rights of parliament and the limits of the king\'s power?',
+        'Beveridge report',
+        'Rights of Man',
+        'Representation of the People Act',
+        'Bill of Rights',
+        [0, 0, 0, 1],
+        'The Bill of Rights, 1689, confirmed the rights of Parliament and the limits of the king’s power'
     ),
     //Question 23
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'When is Halloween celebrated?',
+        '31st of October',
+        '5th of November',
+        '25th of December',
+        '31st of December',
+        [1, 0, 0, 0],
+        'Halloween, 31 October, is an ancient festival and has roots in the pagan festival to mark the beginning of winter. Young people will often dress up in frightening costumes to play \'trick or treat\''
     ),
     //Question 24
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'As a British citizen, you should:',
+        'Report on your neighbour',
+        'Respect and obey the law',
+        'Look after the area in which you live and the environment',
+        'Do not walk your dog without a leash in public areas',
+        [0, 1, 1, 0],
+        'As a British citizen you should respect and obey the law and look after the area in which you live and the environment'
     )
 ];
 
 var quiz11 = [
     //Question 1
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the Turner Prize?',
+        'Contemporary art award',
+        'Literary award',
+        'Music award',
+        'Theater award',
+        [1, 0, 0, 0],
+        'The Turner Prize was established in 1984 and celebrates contemporary art. It was named after Joseph Turner. Four works are shortlisted every year and shown at Tate Britain before the winner is announced. The Turner Prize is recognised as one of the most prestigious visual art awards in Europe'
     ),
     //Question 2
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What type of election is held if a member of the Parliament dies or resigns?',
+        'General election',
+        'European Election',
+        'By-election',
+        'There is no election, the Prime Minister appoints a replacement',
+        [0, 0, 1, 0],
+        'A UK Parliamentary by-election takes place when a seat in the House of Commons becomes vacant between general elections'
     ),
     //Question 3
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the Man Booker Prize?',
+        'Music award',
+        'Visual art award',
+        'Literary award',
+        'Digital painting award',
+        [0, 0, 1, 0],
+        'The Man Booker Prize for Fiction is a literary prize awarded each year for the best original novel written in the English language and published in the UK'
     ),
     //Question 4
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'When did the Beatles become popular and social laws got liberalised?',
+        'During the 1960s',
+        'Between the 1940s and 1950s',
+        'During the 1970s',
+        'Early 1980s',
+        [1, 0, 0, 0],
+        'he decade of the 1960s was a period of significant social change. It was known as the ‘swinging sixties’. There was growth in British fashion, cinema and popular music. Two well-known pop music groups at the time were The Beatles and The Rolling Stones. It was also a time when social laws were liberalised, for example in relation to divorce and to abortion in England, Wales and Scotland. The position of women in the workplace also improved.'
     ),
     //Question 5
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'How often are the members of the Welsh Assembly (AMs) elected?',
+        'Every 2 years',
+        'Every 3 years',
+        'Every 6 years',
+        'Every 4 years',
+        [0, 0, 0, 1],
+        'The National Assembly for Wales is a devolved parliament with power to make legislation and vary taxes in Wales. The Assembly comprises 60 members, who are known as Assembly Members, or AMs. Elections are held every four years using a form of proportional representation'
     ),
     //Question 6
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who is the designer of the Cenotaph',
+        'Richard Rogers',
+        'Sir Edwin Lutyens',
+        'Will Alsop',
+        'Zaha Hadid',
+        [0, 1, 0, 0],
+        'The Cenotaph positioned on Whitehall in London has become the central focus for the remembrance and commemoration events in Britain since the First World War. Sir Edwin Lutyens was an English architect known for imaginatively adapting traditional architectural styles to the requirements of his era. He designed many English country houses, public buildings and war memorials around the world including the Cenotaph in Whitehall'
     ),
     //Question 7
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'In 1588 the British were victorious against:',
+        'The Jacobite risings',
+        'The Vikings',
+        'The Spanish Armada',
+        'The French Army',
+        [0, 0, 1, 0],
+        'The defeat of the Spanish Armada in 1588 has long been held as one of England\'s greatest military achievements, and a sign of the strength and spirit imparted to the country by the reign of Queen Elizabeth I'
     ),
     //Question 8
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two of the following are British overseas territories?',
+        'Guam',
+        'St Helena',
+        'The Falkland Islands',
+        'Northern Mariana Islands',
+        [0, 1, 1, 0],
+        'St Helena and the Falkland Islands are British overseas territories, they are linked to the UK but are not part of it'
     ),
     //Question 9
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'When did women get the right to vote?',
+        '1918',
+        '1916',
+        '1921',
+        '1938',
+        [1, 0, 0, 0],
+        'The Representation of the People Act of February 1918 was an important milestone in the women’s suffrage campaign. The Act granted some women the right to vote in parliamentary elections for the first time, but not on an equal basis to men, who gained universal suffrage. This was partly in recognition of the contribution women made to the war effort during the First World War'
     ),
     //Question 10
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two of the following is TRUE regarding Female genital mutilation(FGM)?',
+        'It is illegal and a criminal offence in the UK to perform female genital mutilation on a girl or a woman',
+        'It is illegal and a criminal offence to take a girl or a woman abroad to have female genital mutilation performed on them',
+        'It is illegal but NOT a criminal offence in the UK to perform female genital mutilation on a girl or a woman',
+        'It is NOT illegal to take a girl or a woman abroad for having female genital mutilation performed on them',
+        [1, 1, 0, 0],
+        'Female genital mutilation(FGM), also known as cutting or female circumcision, is illegal in the U.K.. Practising FGM or taking a girl or woman abroad for FGM is a criminal offence'
     ),
     //Question 11
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is one of the main accomplishments of the Magna Carta',
+        'It restricted the power of the nobility',
+        'It restricted the King\'s power',
+        'It guaranteed the right for wealthy women to vote',
+        'It restricted slave trade',
+        [0, 1, 0, 0],
+        'Magna Carta, which means \'The Great Charter\', is one of the most important documents in history as it established the principle that everyone is subject to the law, even the king, and guarantees the rights of individuals, the right to justice and the right to a fair tria'
     ),
     //Question 12
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Who is the heir to the throne of England?',
+        'The Prince of Wales',
+        'The Duke of York',
+        'Earl of Wessex',
+        'Duchess of Cambridge',
+        [1, 0, 0, 0],
+        'Prince Charles is presently heir (next in line) to the British throne. He will not become king until his mother, Queen Elizabeth, abdicates (gives up the throne), retires or dies'
     ),
     //Question 13
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which of the following days marks the death of Jesus Christ?',
+        'Palm Sunday',
+        'Pentecost',
+        'Good Friday',
+        'Easter day',
+        [0, 0, 1, 0],
+        'Good Friday is a very important day for many Christians. On Good Friday, Christians remember that Jesus Christ died for everyone. He was crucified by the Romans on a hill outside Jerusalem although he had not done anything wrong.'
     ),
     //Question 14
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What information has to be present on a dogs collar when taken out for a walk',
+        'The owner\'s telephone number',
+        'The dog\'s name',
+        'The owner\'s address',
+        'The owner\'s name',
+        [0, 0, 1, 1],
+        'All dogs in public places must wear a collar showing the name and address of the owner. The owner is responsible for keeping the dog under control and for cleaning up after the animal in a public place'
     ),
     //Question 15
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Great Britain refers only to: ',
+        'England and Scotland',
+        'England, Wales and Scotland',
+        'England and Wales',
+        'England, Wales, Scotland and Northern Ireland',
+        [0, 1, 0, 0],
+        'Great Britain refers only to England, Wales and Scotland'
     ),
     //Question 16
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'How many national parks are there in England, Wales and Scotland?',
+        '15',
+        '18',
+        '13',
+        '21',
+        [1, 0, 0, 0],
+        'There are 10 National Parks in England, 3 in Wales and 2 in Scotland, a total of 15'
     ),
     //Question 17
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Northern Ireland and Scotland have their own banknotes, where are they valid?',
+        'Everywhere in the UK and all British overseas territories',
+        'Only in Northern Ireland and England',
+        'Only in Northern Ireland and Scotland',
+        'Everywhere in the UK',
+        [0, 0, 0, 1],
+        'Northern Ireland and Scotland have their own banknotes, which are valid everywhere in the UK'
     ),
     //Question 18
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which two of he following are part of the National Anthem lyrics?',
+        'God save our gracious Queen!',
+        'What so proudly we hailed at the twilight\'s last gleaming',
+        'Oh, thus be it ever, when freemen shall stand',
+        'Send her victorious',
+        [1, 0, 0, 1],
+        'The first verse of the British National Anthem is: ' +
+        'God save our gracious Queen!\n' +
+        'Long live our noble Queen!\n' +
+        'God save the Queen!\n' +
+        'Send her victorious,\n' +
+        'Happy and glorious,\n' +
+        'Long to reign over us,\n' +
+        'God save the Queen'
     ),
     //Question 19
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What happened to ‘Mary, Queen of Scots’ after she spent 20 years in prison?',
+        'She became Queen of Great Britain',
+        'She was executed',
+        'She lived in exile for the rest of her life',
+        'She was set free but could not become Queen of Britain',
+        [0, 1, 0, 0],
+        'Mary was Elizabeth I\'s cousin and hoped that Elizabeth might help her, but Elizabeth suspected Mary of wanting to take over the English throne, and kept her a prisoner for 20 years. Mary was eventually executed, accused of plotting against ELizabeth I'
     ),
     //Question 20
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'On what day is St David’s day celebrated?',
+        '1st March',
+        '5th March',
+        '23rd April',
+        '17th April',
+        [1, 0, 0, 0],
+        'Saint David\'s Day is the feast day of Saint David, the patron saint of Wales, and falls on 1 March, the date of Saint David\'s death in 589 AD'
     ),
     //Question 21
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'What is the Home Secretary responsible for?',
+        'Education',
+        'Immigration',
+        'Crime',
+        'Foreign affairs',
+        [0, 1, 1, 0],
+        'The Home Secretary is responsible for crime, policing and immigration'
     ),
     //Question 22
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'By which methods can complaints be made against the police?',
+        'Going to the police station',
+        'Writing to your MP',
+        'Writing to the Chief Constable',
+        'Post on social media about your incident',
+        [1, 0, 1, 0],
+        'Anyone can make a complaint about the police by going to a police station or by writing to the Chief Constable of the police force involved. Complaints can also be made to an independent body: the Independent Police Complaints Commission in England and Wales, the Police Complaints Commissioner for Scotland or the Police Ombudsman for Northern Ireland'
     ),
     //Question 23
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
+        'Which flower is associated with Scotland?',
+        'The Shamrock',
+        'The Daffodil',
+        'The Poppy',
+        'The Thistle',
+        [0, 0, 0, 1],
+        'Scotland\'s national emblem is called the thistle. Originally seen as a symbol of defence in the 15th century, the thistle, this prickly-leaved purple flower, is and will always be known as the symbol of Scotland'
     ),
     //Question 24
     new Quiz(
-        '',
-        '',
-        '',
-        '',
-        '',
-        [0, 0, 0, 0],
-        ''
-    )
+        'Which country was invaded by Germany in 1939 and resulted in starting the Second World War?',
+        'Poland',
+        'Danemark',
+        'Netherlands',
+        'Britain',
+        [1, 0, 0, 0],
+        'In August of 1939, Nazi Germany and the Soviet Union signed a non-aggression treaty. One week later, Germany invaded Poland and World War II began'
+    ),
 ];
 
 var quiz12 = [
